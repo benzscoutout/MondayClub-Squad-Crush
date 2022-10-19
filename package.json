@@ -1,0 +1,6 @@
+{
+
+    "scripts": {
+        "deploy:prod": "firebase use monday-club-48189 && firebase target:clear hosting game-candycrush && firebase target:apply hosting game-candycrush game-candycrush && firebase deploy --only hosting:game-candycrush"
+    }
+}
